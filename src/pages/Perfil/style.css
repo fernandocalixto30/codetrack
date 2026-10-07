@@ -1,0 +1,47 @@
+.container-perfil {
+    display: flex;
+    justify-content: center;
+}
+
+.content-perfil {
+    margin: 50px auto;
+    width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #fff;
+}
+
+.content-perfil>h2 {
+    font-family: "Roboto", serif;
+
+}
+
+.content-perfil>p {
+    font-family: "Roboto", serif;
+    font-size: 16px;
+}
+
+.logout-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #ff4d4d;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    transition: background 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #e60000;
+}
+
+.email-user {
+    margin-bottom: 15px;
+    font-size: 14px;
+}

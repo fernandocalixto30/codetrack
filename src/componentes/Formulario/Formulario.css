@@ -1,0 +1,81 @@
+.formulario {
+    display: flex;
+    justify-content: center;
+
+}
+
+.formulario form {
+    margin-top: 50px;
+    max-width: 80%;
+    background-color: #292727;
+    border-radius: 20px;
+    padding: 40px 64px;
+    color: #fff;
+    box-shadow: 8px 8px 16px rgb(0, 0, 0, 0.40);
+}
+
+.formulario form h2 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: "Roboto", serif;
+}
+
+.input-file {
+    display: none;
+}
+
+.label-file {
+    border: 1px solid #000;
+    padding: 10px;
+    cursor: pointer;
+    font-family: "Roboto", Regular;
+}
+
+.input-file-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.img-cliente {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 1px solid;
+}
+
+.input-file-content {
+    display: flex;
+}
+
+.container-erro {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", Regular;
+    font-size: 16px;
+}
+
+.erro-auth {
+    background-color: #e9c5c5;
+    color: #680505;
+    padding: 5px 20px;
+
+    margin-bottom: 30px;
+}
+
+.container-sucesso {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", Regular;
+    font-size: 16px;
+}
+
+.sucesso-auth {
+    background-color: #a2ffaac9;
+    color: #0f5515;
+    padding: 5px 20px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,102 @@
+body{
+    background-color: #6278F7 ;
+}
+.login-container {
+    width: 400px;
+    color: #ffffff;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 8px 8px 10px #0000006c;
+    margin: 100px auto;
+background-color: #292727;
+    border-radius: 10px;
+}
+.login-container>h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: Roboto, Regular;
+    font-size: 37px;
+    color: #6278F7;
+    font-weight: 700;
+}
+.login-input-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-family: "Roboto", Normal;
+    border-bottom: 20px;
+    gap: 10px;
+}
+.login-input-container>label{
+ font-size: 18px;
+}
+.login-input-container>input {
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px #0000004d;
+    outline: none;
+
+}
+.btn-submit {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    background-color: #6278F7;
+    color: #eee;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn-submit:hover {
+    background-color: #4b64ee;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    font-family: "Roboto", serif;
+}
+.link-esqueceu-senha{
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.link-cadastrar{
+    font-size: 15px;
+    color: #666;
+}
+.link-cadastrar>a{
+    color: #666;
+    text-decoration: none;
+}
+.link-cadastrar>a:hover{
+    color: #0069d9;
+    text-decoration: underline;
+}
+.mensagem-erro{
+    color: red;
+    font-size: 16px;
+    font-family: Arial;
+    margin-bottom: 10px;
+    margin-top: 5px;
+
+}
+.erro{
+    color: red;
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: "Roboto", Regular;
+}

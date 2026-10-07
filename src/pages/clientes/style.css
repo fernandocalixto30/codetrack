@@ -1,0 +1,100 @@
+.ct-clientes-page .content-filtros-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 14px;
+  padding: 0;
+  border: 0;
+}
+
+.ct-clientes-page .content-filtros {
+  display: flex;
+  gap: 10px;
+  min-width: 260px;
+}
+
+.ct-clientes-page .content-filtros__select,
+.ct-clientes-page .content-cadastrar-user {
+  height: 40px;
+  width: auto;
+  min-width: 150px;
+  padding: 0 12px;
+  border: 1px solid rgba(118, 142, 178, .25);
+  border-radius: 9px;
+  outline: none;
+  color: #c9d5e7;
+  background: rgba(18, 29, 47, .72);
+  font-size: 12px;
+}
+
+.ct-clientes-page .content-cadastrar-user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ct-clientes-page .content-cadastrar-user a {
+  color: #d9e8fb;
+  text-decoration: none;
+}
+
+.ct-clientes-page .content-clientes-container-list {
+  overflow: auto;
+  border: 1px solid rgba(89, 117, 160, .20);
+  border-radius: 14px;
+  background: linear-gradient(145deg, rgba(11, 23, 41, .88), rgba(6, 14, 27, .93));
+  box-shadow: 0 19px 55px rgba(0,0,0,.20);
+}
+
+.ct-clientes-page .content-clientes {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ct-clientes-page .content-clientes th {
+  padding: 14px 15px;
+  color: #8391a7;
+  background: rgba(8, 17, 31, .55);
+  border-bottom: 1px solid rgba(115, 139, 173, .15);
+  font-size: 11px;
+  font-weight: 650;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.ct-clientes-page .content-clientes td {
+  padding: 13px 15px;
+  color: #c8d3e2;
+  border-bottom: 1px solid rgba(115, 139, 173, .10);
+  font-size: 12px;
+}
+
+.ct-clientes-page .content-clientes tr:last-child td {
+  border-bottom: 0;
+}
+
+.ct-heading-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 0 16px;
+  border: 1px solid rgba(44, 141, 255, .65);
+  border-radius: 10px;
+  color: #e4efff;
+  background: rgba(30, 110, 239, .11);
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+@media (max-width: 760px) {
+  .ct-clientes-page .content-filtros-container {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .ct-clientes-page .content-filtros {
+    width: 100%;
+  }
+}

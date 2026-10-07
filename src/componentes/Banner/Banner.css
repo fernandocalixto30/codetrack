@@ -1,0 +1,38 @@
+.banner{
+    background-color: #292727;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    color: #fff;
+}
+.banner>.btn-login{
+    display: flex;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+ 
+}
+.banner>h1>a{
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "Roboto", serif;
+    color: #FFF;
+}
+.welcome-text{
+    font-family: "Roboto", Normal;
+}
+.user-info{
+    display: flex;
+align-items: center;
+
+}
+.user-name{
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+.user-name:hover{
+    text-decoration: underline;
+    color:#551a8b;
+}
