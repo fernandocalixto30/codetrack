@@ -2,8 +2,8 @@
     "rewrites": [
       {
         "source": "/(.*)",
-        "destination": "/"
-      }
+        "destination": "/node_modules/@supabase/supabase-js/dist/module/index.js"
+      }                                       
     ]
   }
   
